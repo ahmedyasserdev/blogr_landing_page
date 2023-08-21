@@ -1,0 +1,21 @@
+.free {
+    position: relative;
+    .free-illustration {
+
+        @media (min-width : 800px) and (max-width : 1023px) {
+          position: absolute;
+          left: -150px;
+          top: 250px;
+          max-width: 550px !important;
+        }
+    
+        @media (min-width : 1024px) {
+          position: absolute;
+          left: -180px;
+          top: 130px;
+          max-width: 780px !important;
+    
+        }
+      }
+
+}

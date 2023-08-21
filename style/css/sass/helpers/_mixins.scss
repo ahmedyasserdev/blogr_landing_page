@@ -1,0 +1,16 @@
+@mixin article () {
+    .heading {
+        color : $headings ;
+        margin-bottom: 15px;
+        font-weight: 500;
+    }
+    p {
+        color : $copy;
+        line-height: 2;
+    }
+    @media( max-width : 767px ) {
+        .heading , p {
+            text-align: center ;
+        }
+    }
+}

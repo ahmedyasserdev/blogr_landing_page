@@ -1,0 +1,34 @@
+.state {
+  background: $state-bg;
+  border-top-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+  width: 100vw;
+  @media (max-width: 767px)  {
+    padding-bottom: 50px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    h1 {
+      font-size: 30px !important;
+    }
+
+  }
+
+  @media (min-width: 1024px) {
+    height: 350px;
+  }
+
+  .mobile-bg {
+    background: url("../../images/bg-pattern-circles.svg") center/cover no-repeat ;
+    position: relative;
+    top : -80px ;
+  }
+
+  p {
+    color: $grayish-blue !important;
+    max-width: 500px;
+  }
+
+
+
+}

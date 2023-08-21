@@ -1,0 +1,30 @@
+.designed {
+  padding-top: 170px;
+  padding-bottom: 170px;
+  position: relative;
+
+  @media (max-width : 767px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+  }
+
+
+  .designed-illustration {
+
+    @media (min-width : 800px) and (max-width : 1023px) {
+      position: absolute;
+      right: -180px;
+      top: 200px;
+      max-width: 550px !important;
+    }
+
+    @media (min-width : 1024px) {
+      position: absolute;
+      right: -180px;
+      top: 150px;
+      max-width: 750px !important;
+
+    }
+  }
+}

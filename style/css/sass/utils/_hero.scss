@@ -1,0 +1,35 @@
+/* Hero */
+
+.hero {
+    background: $background-gradient !important;
+    height: 400px;
+    border-bottom-left-radius: 100px;
+    position: relative;
+    z-index: 10;
+}
+
+.hero  .overlay {
+    min-height: 400px !important;
+    background: url("../../images/bg-pattern-intro-desktop.svg") no-repeat center/cover !important;
+    z-index: 10000 !important ;
+    .learn-more:hover {
+        background-color: white;
+        color: $light-red !important;
+        border : 0px ;
+    }
+}
+
+
+@media (min-width : 1024px) {
+
+    .hero,
+    .hero .overlay {
+        height: 600px;
+    }
+}
+
+@media (max-width : 767px) {
+    .hero  .overlay {
+        background: url("../../images/bg-pattern-intro-mobile.svg") no-repeat  center/cover !important;
+    }
+}
